@@ -64,12 +64,14 @@
                 {{ pesan }}
               </div>
 
-              <div class="field is-grouped">
-                <div class="control">
-                  <button class="button is-link" @click="getPDF()">
+              <div class="columns is-mobile">
+                <div class="column is-half-mobile">
+                  <button class="button is-link is-fullwidth" @click="getPDF()">
                     <i class="fas fa-download"></i> &nbsp;&nbsp;Tiket
-                  </button>&nbsp;
-                  <button class="button is-success" @click="ulangi()">
+                  </button>
+                </div>
+                <div class="column is-half-mobile">
+                  <button class="button is-success is-fullwidth" @click="ulangi()">
                     <i class="fas fa-undo-alt"></i> &nbsp;&nbsp;Ulangi
                   </button>
                 </div>
@@ -77,8 +79,10 @@
 
             </form>
 
-            <div class="has-text-centered">
-              <a href="http://www.jhproject.id" target="_blank">&copy; 2018 JH Project</a>
+            <div class="jhproject">
+              <span>
+                <a href="http://www.jhproject.id" target="_blank">&copy; 2018 JH Project</a>
+              </span>
             </div>
 
           </div>
@@ -135,7 +139,7 @@ export default {
         this.pesan = 'Klik setuju terlebih dahulu.'
         setTimeout(() => {
           this.peringatan = false
-        }, 3000)
+        }, 5000)
       }
     },
     clearWarning() {
@@ -159,10 +163,13 @@ export default {
 .setuju {
   font-size: 0.7em;
 }
-a {
+
+.jhproject {
+  text-align: center;
   font-size: 0.9em;
 }
-a:hover {
-  color: blue;
+
+.jhproject span:hover {
+  color: #fff;
 }
 </style>
