@@ -2,9 +2,9 @@
 
 > A simple project to demonstrate form inputs to PDF file.
 
-**[Visit Project](https://goo.gl/e4Jwhr)**
+**[Visit Project](https://pensive-boyd-d6dec7.netlify.app)**
 
-![TiketValet](http://jhproject.id/images/portfolio/TiketValet.png)
+![screenshot](screenshot.png)
 
 #### Jeffry Hermanto _jeffryhermanto@gmail.com_
 
