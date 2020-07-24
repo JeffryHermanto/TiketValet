@@ -81,7 +81,7 @@
 
             <div class="jhproject">
               <span>
-                <a href="http://www.jhproject.id" target="_blank">&copy; 2018 JH Project</a>
+                <a href="http://www.jeffryhermanto.com" target="_blank">&copy; 2018 Jeffry Hermanto</a>
               </span>
             </div>
 
